@@ -30,7 +30,7 @@ if (process.env.NODE_ENV != 'test')
 		console.log("\n branches: \n")
 		await listBranches(userId, "excalidraw");
 		console.log("\n created repo: \n")
-		await createRepo(userId, "my-test-repo-2");
+		await createRepo(userId, "my-test-repo-4");
 		console.log("\n Creating new issue...")
 		await createIssue(userId, "SSW345_LabGithub", "My New Issue 2", "This is the issue body.");
 		await enableWikiSupport(userId, "SSW345_LabGithub");
